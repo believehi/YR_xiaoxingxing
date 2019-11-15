@@ -1,0 +1,2 @@
+<import src="./Fensi.vue.wxml" />
+    <template is="41ccd083" data="{{ ...$root['0'], $root }}"/>

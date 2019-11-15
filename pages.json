@@ -1,0 +1,356 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：httpss://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "小新星大学"
+			}
+
+		},
+		{
+			"path": "pages/peixun/peixun",
+			"style": {
+				"navigationBarTitleText": "培训"
+			}
+		},
+		{
+			"path": "pages/zhangzishi/zhangzishi",
+			"style": {
+				"navigationBarTitleText": "涨姿势"
+			}
+		},
+		{
+			"path": "pages/userinfo/userinfo",
+			"style": {
+				"navigationBarTitleText": "用户中心"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+
+		},
+		{
+			"path": "pages/index/baoming",
+			"style": {
+				"navigationBarTitleText": "当期报名"
+			}
+
+		},
+		{
+			"path": "pages/index/zaixianbaoming",
+			"style": {
+				"navigationBarTitleText": "在线报名"
+			}
+
+		},
+		{
+			"path": "pages/index/dangqibaoming",
+			"style": {
+				"navigationBarTitleText": "当期报名"
+			}
+
+		},
+		{
+			"path": "pages/index/ziyuanxiazai",
+			"style": {
+				"navigationBarTitleText": "资源包下载"
+			}
+
+		},
+		{
+			"path": "pages/userinfo/duihuan",
+			"style": {
+				"navigationBarTitleText": "积分兑换"
+			}
+
+		},
+		{
+			"path": "pages/userinfo/ShoppingCart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+
+		},
+		{
+			"path": "pages/userinfo/MakeDeal",
+			"style": {
+				"navigationBarTitleText": "成交订单"
+			}
+
+		},
+		{
+			"path": "pages/index/wodedaka",
+			"style": {
+				"navigationBarTitleText": "心得打卡"
+			}
+
+		},
+		{
+			"path": "pages/peixun/daka",
+			"style": {
+				"navigationBarTitleText": "心得打卡",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index/daka",
+			"style": {
+				"navigationBarTitleText": "打卡圈",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index/dakariji",
+			"style": {
+				"navigationBarTitleText": "打卡日记"
+			}
+		},
+		{
+			"path": "pages/peixun/dangqireibo",
+			"style": {
+				"navigationBarTitleText": "在线直播",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index/LightChina",
+			"style": {
+				"navigationBarTitleText": "我星我秀"
+			}
+		},
+		{
+			"path": "pages/userinfo/bianjixinxi",
+			"style": {
+				"navigationBarTitleText": "编辑信息"
+			}
+		},
+		{
+			"path": "pages/peixun/wangqipeiuxn",
+			"style": {
+				"navigationBarTitleText": "往期培训"
+			}
+		},
+		{
+			"path": "pages/peixun/wangqi",
+			"style": {
+				"navigationBarTitleText": "往期培训"
+			}
+		},
+		{
+			"path": "pages/zhangzishi/dangqireibo",
+			"style": {
+				"navigationBarTitleText": "趣播",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/peixun/pingfen",
+			"style": {
+				"navigationBarTitleText": "导师评分"
+			}
+		},
+		{
+			"path": "pages/index/shangchuang",
+			"style": {
+				"navigationBarTitleText": "我星我秀"
+			}
+		},
+		{
+			"path": "pages/index/zaixianreibo",
+			"style": {
+				"navigationBarTitleText": "星课播",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/peixun/meizhao",
+			"style": {
+				"navigationBarTitleText": "学员美照"
+			}
+		},
+		{
+			"path": "pages/index/mydaka",
+			"style": {
+				"navigationBarTitleText": "打卡圈",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index/Chinadetails",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/zhangzishi/PlayVideo",
+			"style": {
+				"navigationBarTitleText": "视频播放"
+			}
+		},
+		{
+			"path": "pages/index/Fensi",
+			"style": {
+				"navigationBarTitleText": "粉丝",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index/myquanzi",
+			"style": {
+				"navigationBarTitleText": "创建的圈子",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index/joinquanzi",
+			"style": {
+				"navigationBarTitleText": "加入的圈子",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/peixun/jieyingtupian",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/index/dakaDetails",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/userinfo/baominglist",
+			"style": {
+				"navigationBarTitleText": "报名列表"
+			}
+		},
+		{
+			"path": "pages/userinfo/baominguser",
+			"style": {
+				"navigationBarTitleText": "报名成员列表"
+			}
+		},
+		{
+			"path": "pages/index/news",
+			"style": {
+				"navigationBarTitleText": "新闻详情"
+			}
+		},
+		{
+			"path": "pages/index/newslist",
+			"style": {
+				"navigationBarTitleText": "新闻",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/peixun/shijuanlist",
+			"style": {
+				"navigationBarTitleText": "试卷列表"
+			}
+		},
+		{
+			"path":"pages/peixun/dangqipeixun",
+			"style":{
+				"navigationBarTitleText":"当期培训"
+			}
+		},
+		{
+			"path":"pages/peixun/dangqi",
+			"style":{
+				"navigationBarTitleText":"当期培训"
+			}
+		},
+		{
+			"path":"pages/peixun/getscore",
+			"style":{
+				"navigationBarTitleText":"成绩列表"
+			}
+		},
+		{
+			"path":"pages/peixun/peixunsp",
+			"style":{
+				"navigationBarTitleText":"培训视频列表",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+		   "path": "pages/userinfo/message",
+		   "style": {
+			"navigationBarTitleText": "留言咨询",
+			"enablePullDownRefresh": true
+	   }
+	   },
+	   {
+		   "path": "pages/userinfo/messdetails",
+		   "style": {
+			"navigationBarTitleText": "留言详情"
+		   }
+	  },
+	   {
+		   "path": "pages/peixun/zhiboDetails",
+		   "style": {
+			"navigationBarTitleText": "说说详情"
+		   }
+	  }
+	],
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#000000",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/home.png",
+				"selectedIconPath": "static/homes.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/peixun/peixun",
+				"iconPath": "static/peixun.png",
+				"selectedIconPath": "static/peixuns.png",
+				"text": "培训"
+			},
+			{
+				"pagePath": "pages/zhangzishi/zhangzishi",
+				"iconPath": "static/zzs.png",
+				"selectedIconPath": "static/zzs1.png",
+				"text": "涨姿势"
+			},
+			{
+				"pagePath": "pages/userinfo/userinfo",
+				"iconPath": "static/user.png",
+				"selectedIconPath": "static/user1.png",
+				"text": "用户中心"
+			}
+
+		]
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式（list 的索引项）
+		"list": [{
+			"name": "swiper", //模式名称
+			"path": "pages/index/index", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到。
+		}]
+	}
+}

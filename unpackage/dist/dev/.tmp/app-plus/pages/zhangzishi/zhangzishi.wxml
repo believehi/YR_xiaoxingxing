@@ -1,0 +1,1 @@
+<view class="content"><view class="uni-nav-item"><image src="../../static/rebo_1.jpg" data-event-opts="{{[['tap',[['rb_bot',['$event']]]]]}}" bindtap="__e"></image></view><view data-event-opts="{{[['tap',[['zg_but',['$event']]]]]}}" class="uni-nav-item" bindtap="__e"><image src="../../static/dianlian_1.jpg" mode></image></view></view>

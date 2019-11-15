@@ -1,0 +1,124 @@
+
+page {
+	width: 96%;
+	height: 100%;
+	padding: 0 2%;
+}
+.content {
+	height: 100%;
+}
+.uni-info{
+	padding: 15rpx 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 30rpx;
+	color: #000000;
+}
+.uni-info text{
+	margin-left: 15rpx;
+}
+.uni-padding-wrap {
+	height: 60%;
+}
+.page-section-spacing {
+	height: 100%;
+}
+.swiper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.swiper image {
+	width: 100%;
+	height: 100%;
+}
+button::after {
+	border: none;
+}
+.uni-img {
+	width: 70rpx;
+	height: 70rpx;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.uni-img image {
+	width: 100%;
+	height: 100%;
+}
+button {
+	line-height: 35rpx !important;
+	background: #FFFFFF;
+}
+.dots {
+	position: absolute;
+	right: 15rpx;
+	bottom: 15rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.uni-icon {
+	color: #999999;
+	width: 13%;
+	text-align: center;
+	font-size: 45rpx;
+	position: absolute;
+	right: 0;
+	top: 30rpx;
+}
+.uni-icon text {
+	width: 100%;
+	display: block;
+	font-size: 30rpx;
+}
+.dots view {
+	margin: 0 8rpx;
+	width: 16rpx;
+	height: 16rpx;
+	border: 1rpx solid #FFFFFF;
+	border-radius: 50%;
+	-webkit-transition: all .6s;
+	-o-transition: all .6s;
+	transition: all .6s;
+}
+.active {
+	background: #FFFFFF;
+}
+.uni-content{
+	padding: 30rpx 20rpx;
+	font-size: 28rpx;
+	color: #000000;
+	word-break:break-all;
+}
+.uni-wz-box{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	border-top: 1rpx solid #e6e6e6;
+	border-bottom: 1rpx solid #e6e6e6;
+	color: #999999;
+}
+.uni-wz-box text{
+	font-size: 26rpx;
+	color: #999999;
+	padding: 25rpx 0;
+	margin-left: 15rpx;
+}
+

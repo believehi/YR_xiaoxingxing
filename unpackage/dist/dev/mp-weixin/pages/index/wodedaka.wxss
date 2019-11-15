@@ -1,0 +1,108 @@
+
+.uni-top-content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 5% 2%;
+}
+.uni-img {
+	width: 170rpx;
+	height: 170rpx;
+	background-color: #333333;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.uni-img image {
+	width: 100%;
+	height: 100%;
+}
+.uni-content{
+	margin-left: 20rpx;
+}
+.uni-content text {
+	display: block;
+	font-size: 30rpx;
+	color: #000000;
+}
+.uni-content .fu-title{
+	font-size: 26rpx;
+	color: #999999;
+	margin-top: 8rpx;
+}
+.uni-but-list{
+	margin-top: 10rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.uni-but-list view {
+	background-color: #006666;
+	border-radius: 8rpx;
+	color: #FFFFFF;
+	height: 54rpx;
+	line-height: 54rpx;
+	display: inline-block;
+	margin-right: 15rpx;
+	font-size: 28rpx;
+	padding: 0 10rpx;
+}
+.uni-but-list uni-icon{
+	margin-right: 10rpx;
+}
+.uni-but-list view:nth-child(3) {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	width: 50rpx;
+}
+.uni-but text {
+	display: inline-block;
+	width: 10rpx;
+	height: 10rpx;
+	border-radius: 50%;
+	background: #FFFFFF;
+	margin-left: 5rpx;
+}
+.uni-xz-content{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	border-top: solid 1rpx #e6e6e6;
+	border-bottom: solid 1rpx #e6e6e6;
+	padding: 2% 0;
+}
+.uni-xz-content view{
+	width: 33.33333%;
+	text-align: center;
+	color: #999999;
+	font-size: 30rpx;
+}
+.uni-xz-content view:nth-child(1){
+	text-align: left;
+	padding-left: 5%;
+}
+.uni-xz-content view:nth-child(3){
+	text-align: right;
+	padding-right: 5%;
+}
+

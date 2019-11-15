@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"videocss{ width: 100%; height: ",[0,500],"; }\n",],undefined,{path:"./pages/zhangzishi/PlayVideo.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/zhangzishi/PlayVideo.wxml') } }));

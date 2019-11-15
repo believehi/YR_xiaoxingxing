@@ -1,0 +1,97 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/peixun/peixun",
+    "pages/zhangzishi/zhangzishi",
+    "pages/userinfo/userinfo",
+    "pages/login/login",
+    "pages/login/register",
+    "pages/index/baoming",
+    "pages/index/zaixianbaoming",
+    "pages/index/dangqibaoming",
+    "pages/index/ziyuanxiazai",
+    "pages/userinfo/duihuan",
+    "pages/userinfo/ShoppingCart",
+    "pages/userinfo/MakeDeal",
+    "pages/index/wodedaka",
+    "pages/peixun/daka",
+    "pages/index/daka",
+    "pages/index/dakariji",
+    "pages/peixun/dangqireibo",
+    "pages/index/LightChina",
+    "pages/userinfo/bianjixinxi",
+    "pages/peixun/wangqipeiuxn",
+    "pages/peixun/wangqi",
+    "pages/zhangzishi/dangqireibo",
+    "pages/peixun/pingfen",
+    "pages/index/shangchuang",
+    "pages/index/zaixianreibo",
+    "pages/peixun/meizhao",
+    "pages/index/mydaka",
+    "pages/index/Chinadetails",
+    "pages/zhangzishi/PlayVideo",
+    "pages/index/Fensi",
+    "pages/index/myquanzi",
+    "pages/index/joinquanzi",
+    "pages/peixun/jieyingtupian",
+    "pages/index/dakaDetails",
+    "pages/userinfo/baominglist",
+    "pages/userinfo/baominguser",
+    "pages/index/news",
+    "pages/index/newslist",
+    "pages/peixun/shijuanlist",
+    "pages/peixun/dangqipeixun",
+    "pages/peixun/dangqi",
+    "pages/peixun/getscore",
+    "pages/peixun/peixunsp",
+    "pages/userinfo/message",
+    "pages/userinfo/messdetails",
+    "pages/peixun/zhiboDetails"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/homes.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/peixun/peixun",
+        "iconPath": "static/peixun.png",
+        "selectedIconPath": "static/peixuns.png",
+        "text": "培训"
+      },
+      {
+        "pagePath": "pages/zhangzishi/zhangzishi",
+        "iconPath": "static/zzs.png",
+        "selectedIconPath": "static/zzs1.png",
+        "text": "涨姿势"
+      },
+      {
+        "pagePath": "pages/userinfo/userinfo",
+        "iconPath": "static/user.png",
+        "selectedIconPath": "static/user1.png",
+        "text": "用户中心"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取位置"
+    }
+  },
+  "sitemapLocation": "sitemap68.json"
+}

@@ -1,0 +1,2 @@
+setCssToHead(["body { width: 96%; height: 100%; padding: 0 2%; }\n.",[1],"content{ height: 100%; overflow: hidden; }\n.",[1],"uni-nav-item{ width: 100%; height: 32%; margin-top:1.333% ; }\n.",[1],"uni-nav-item wx-image{ width: 100%; height: 100%; }\n",],undefined,{path:"./pages/zhangzishi/zhangzishi.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/zhangzishi/zhangzishi.wxml') } }));

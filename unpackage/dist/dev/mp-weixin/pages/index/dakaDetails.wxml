@@ -1,0 +1,2 @@
+<import src="./dakaDetails.vue.wxml" />
+    <template is="7f69182d" data="{{ ...$root['0'], $root }}"/>

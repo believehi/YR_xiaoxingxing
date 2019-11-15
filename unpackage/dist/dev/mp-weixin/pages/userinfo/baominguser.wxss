@@ -1,0 +1,22 @@
+
+.content {
+	padding: 20rpx 30rpx;
+	width: 100%;
+	height: 100%;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	color: #333;
+}
+.list {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 20rpx 0;
+	border-bottom: 2rpx solid #E6E6E6;
+}
+

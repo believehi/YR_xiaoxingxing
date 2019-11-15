@@ -1,0 +1,2 @@
+<import src="./pingfen.vue.wxml" />
+    <template is="818c0f20" data="{{ ...$root['0'], $root }}"/>

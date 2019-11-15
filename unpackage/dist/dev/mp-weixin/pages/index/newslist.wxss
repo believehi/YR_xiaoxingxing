@@ -1,0 +1,115 @@
+
+page {
+	width: 96%;
+	height: 100%;
+	padding: 0 2%;
+}
+.main {
+	height: 100%;
+	color: #333;
+}
+.title {
+	width: 100%;
+	height: 30%;
+}
+.title image {
+	width: 100%;
+	height: 100%;
+}
+.nav {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	line-height: 100rpx;
+	font-size: 36rpx;
+	font-weight: 900;
+	border-bottom: 1rpx solid #E6E6E6;
+	position: relative;
+}
+.nav .nav-icon {
+	width: 5rpx;
+	height: 40rpx;
+	background-color: #f40;
+	margin: 0 20rpx;
+}
+.nav-info {
+	position: absolute;
+	right: 25rpx;
+	top: 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.nav-info image {
+	width: 25rpx;
+	height: 25rpx;
+	margin-right: 10rpx;
+}
+.nav-info text {
+	color: #3385FF;
+	font-size: 30rpx;
+	font-weight: 600;
+	text-decoration: underline;
+}
+.list {
+	padding: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.list-content {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+}
+.list-content text:nth-of-type(1) {
+	display: inline-block;
+	font-size: 32rpx;
+	width: 450rpx;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.list-content view {
+	width: 100%;
+	font-size: 28rpx;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+.list-content text:nth-last-of-type(1) {
+	display: block;
+	font-size: 24rpx;
+	color: #999;
+}
+.list-img {
+	width: 160rpx;
+	height: 120rpx;
+	margin-left: 20rpx;
+	border-radius: 10rpx;
+	position: relative;
+	overflow: hidden;
+}
+.list-img image {
+	width: 100%;
+	height: 100%;
+}
+

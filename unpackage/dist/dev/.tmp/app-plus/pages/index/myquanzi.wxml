@@ -1,0 +1,1 @@
+<view class="content"><view hidden="{{!(baseinfo.length==0)}}" class="fs-text">暂无创建的圈子</view><block wx:for="{{baseinfo}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="list"><view class="list-img"><view><image src="{{item.images}}" mode></image></view></view><view class="list-on"><text>{{item.name}}</text></view></view></block></view>

@@ -1,0 +1,2 @@
+<import src="./dangqireibo.vue.wxml" />
+    <template is="c782fd38" data="{{ ...$root['0'], $root }}"/>

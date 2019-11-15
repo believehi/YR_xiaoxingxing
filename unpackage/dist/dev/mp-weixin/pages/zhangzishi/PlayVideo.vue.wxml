@@ -1,0 +1,1 @@
+<template name="84d6cbd4"><view class="_view M84d6cbd4 content"><video id="Videoid" class="_video M84d6cbd4 videocss" src="{{videosrc}}" binderror="handleProxy" direction="90" data-eventid="{{'84d6cbd4-0'}}" data-comkey="{{$k}}"></video></view></template>

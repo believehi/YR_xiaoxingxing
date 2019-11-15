@@ -1,0 +1,1 @@
+<view class="content"><view class="title">{{''+pxname+''}}</view><view hidden="{{!(scorelist.length==0)}}" class="fs-text">暂无数据</view><block wx:for="{{scorelist}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="main"><view class="list"><view class="list-in">{{item.Contents}}</view><view class="list-on">{{item.Result+"分"}}</view></view></view></block></view>

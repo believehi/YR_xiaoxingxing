@@ -1,0 +1,2 @@
+<import src="./MakeDeal.vue.wxml" />
+    <template is="1bff07ab" data="{{ ...$root['0'], $root }}"/>

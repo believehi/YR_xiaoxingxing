@@ -1,0 +1,1 @@
+<view class="content"><video class="videocss" id="Videoid" src="{{videosrc}}" direction="90" data-event-opts="{{[['error',[['videoErrorCallback',['$event']]]]]}}" binderror="__e"></video></view>

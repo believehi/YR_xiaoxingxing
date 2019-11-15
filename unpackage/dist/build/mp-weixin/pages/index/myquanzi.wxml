@@ -1,0 +1,2 @@
+<import src="./myquanzi.vue.wxml" />
+    <template is="33fff5ae" data="{{ ...$root['0'], $root }}"/>

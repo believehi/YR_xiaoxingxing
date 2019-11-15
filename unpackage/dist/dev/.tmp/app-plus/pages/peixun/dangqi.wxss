@@ -1,0 +1,83 @@
+
+page {
+	width: 100%;
+	height: 100%;
+	padding: 2%;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.uni-jy {
+	position: relative;
+	width: 100%;
+	height: 450rpx;
+}
+.uni-jy image {
+	width: 100%;
+	height: 100%;
+}
+.uni-jy view {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	top: 80rpx;
+	color: #fff;
+	font-weight: 600;
+	font-size: 34rpx;
+	text-shadow: 4rpx 4rpx #000000;
+}
+.uni-cf-box {
+	position: relative;
+}
+.uni-cf-box input {
+	width: 85%;
+	margin: 30rpx auto;
+	height: 70rpx;
+	border: 1rpx solid #d1d0d0;
+	padding-left: 10%;
+	font-size: 30rpx;
+	color: #d1d0d0;
+}
+.uni-cf-box uni-icon {
+	position: absolute;
+	top: 25%;
+	left: 5%;
+	color: #d1d0d0;
+}
+.uni-dk-box {
+	width: 100%;
+	height: 270rpx;
+	display: block;
+	padding-bottom: 10rpx;
+}
+.uni-dk-box image {
+	height: 100%;
+	width: 49%;
+}
+.uni-dk-box image:nth-child(2) {
+	margin-left: 2%;
+}
+.uni-lb-box {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin-top: 2.5%;
+}
+.swiper {
+	width: 33%;
+	height: 250rpx;
+	margin-right: 2%;
+}
+.swiper:last-child {
+	margin-right: 0;
+}
+.uni-lb-box image {
+	width: 100%;
+	height: 100%;
+}
+

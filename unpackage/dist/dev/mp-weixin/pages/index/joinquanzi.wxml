@@ -1,0 +1,2 @@
+<import src="./joinquanzi.vue.wxml" />
+    <template is="12bef3a8" data="{{ ...$root['0'], $root }}"/>

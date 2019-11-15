@@ -1,0 +1,1 @@
+<view class="content"><view hidden="{{!(mzList.length==0)}}" class="title">暂无美照</view><block wx:for="{{mzList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="uni-img-itme"><image src="{{item.Pic}}" mode data-event-opts="{{[['tap',[['clearImg',[index,'$0'],['imgList']]]]]}}" bindtap="__e"></image><text>{{item.Name}}</text></view></block></view>

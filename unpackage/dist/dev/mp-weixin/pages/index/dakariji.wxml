@@ -1,0 +1,2 @@
+<import src="./dakariji.vue.wxml" />
+    <template is="e79ee0ea" data="{{ ...$root['0'], $root }}"/>

@@ -1,0 +1,171 @@
+
+page {
+	width: 96%;
+	height: 100%;
+	padding: 0 2%;
+}
+.uni-info-box {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 2% 0;
+	border-bottom: 1rpx solid #edecec;
+}
+.uni-img {
+	width: 170rpx;
+	height: 170rpx;
+	background-color: #dddddd;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.uni-img image {
+	width: 100%;
+	height: 100%;
+}
+.uni-user-name {
+	font-size: 28rpx;
+	color: #999;
+	margin-left: 25rpx;
+	width: 40%;
+	line-height: 50rpx;
+}
+.uni-user-name view:nth-child(1) {
+	font-size: 32rpx;
+	font-weight: 600;
+	color: #666;
+}
+.uni-but {
+	position: relative;
+	width: 207rpx;
+	height: 54rpx;
+	background-color: #009999;
+	border-radius: 8rpx;
+	text-align: center;
+	color: #FFFFFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 26rpx;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-shadow: 0rem 5rpx #006666;
+	        box-shadow: 0rem 5rpx #006666;
+}
+.uni-but text {
+	margin-left: 15rpx;
+}
+.uni-number {
+	position: absolute;
+	right: -13rpx;
+	top: -13rpx;
+	min-width: 39rpx;
+	height: 39rpx;
+	background-color: #ed1c24;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 39rpx;
+	font-size: 26rpx;
+}
+.uni-sp-list {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	margin: 30rpx 0 50rpx;
+}
+.uni-sp-item {
+	width: 50%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin-bottom: 20rpx;
+}
+.uni-sp-img {
+	width: 240rpx;
+	height: 300rpx;
+	border-radius: 10rpx;
+	overflow: hidden;
+}
+.uni-sp-img image {
+	width: 100%;
+	height: 100%;
+}
+.uni-sp-jf {
+	width: 220rpx;
+	padding: 0 10rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 30rpx;
+	line-height: 100rpx;
+	color: #666;
+}
+checkbox {
+	width: 45rpx;
+	height: 45rpx;
+	border-radius: 50%;
+}
+
+/*checkbox 选项框大小  */
+checkbox .wx-checkbox-input {
+	width: 43rpx;
+	height: 43rpx;
+	border-radius: 50%;
+	background-color: #959595;
+	border: solid 2rpx #bfbfbf;
+}
+
+/*checkbox选中后样式  */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+	background-color: #87d424;
+	border: solid 2rpx #87d424;
+}
+
+/*checkbox选中后图标样式  */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
+	width: 28rpx;
+	height: 28rpx;
+	line-height: 28rpx;
+	text-align: center;
+	font-size: 22rpx;
+	color: #fff;
+	background-color: #87d424;
+	-ms-transform: translate(-50%, -50%) scale(1);
+	    transform: translate(-50%, -50%) scale(1);
+	-webkit-transform: translate(-50%, -50%) scale(1);
+}
+

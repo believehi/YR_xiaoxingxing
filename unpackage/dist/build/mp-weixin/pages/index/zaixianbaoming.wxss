@@ -1,0 +1,67 @@
+
+page {
+	width: 96%;
+	height: 100%;
+	padding: 0 2%;
+}
+.content {
+	margin-top: 10rpx;
+}
+.uni-item {
+	border: 1rpx solid #e2e2e2;
+	font-size: 24rpx;
+	margin-bottom: 20rpx;
+}
+.uni-item-box {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding-left: 10rpx;
+	border-bottom: 1rpx solid #e2e2e2;
+	padding: 10rpx 0;
+}
+.uni-item-box text {
+	width: 15%;
+	text-align: right;
+}
+.uni-but-list {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin: 30rpx 0;
+}
+.uni-but-list button {
+	width: 40%;
+	font-size: 28rpx;
+	color: #FFFFFF;
+	letter-spacing: 35rpx;
+	text-indent: 35rpx;
+	-webkit-box-shadow: 0rem 5rpx #006666;
+	        box-shadow: 0rem 5rpx #006666;
+	background: #009999;
+}
+.uni-but-list button:nth-child(1) {
+	background: #2af455;
+	-webkit-box-shadow: 0rem 5rpx #3be75f;
+	        box-shadow: 0rem 5rpx #3be75f;
+}
+.uni-icon {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	padding: 15rpx 0;
+	font-size: 30rpx;
+	color: #da3558;
+}
+

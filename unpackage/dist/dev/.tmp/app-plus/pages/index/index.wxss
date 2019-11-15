@@ -1,0 +1,96 @@
+
+page {
+	width: 96%;
+	height: 100%;
+	padding: 0 2%;
+}
+.content{
+	height: 100%;
+	overflow: hidden;
+}
+.uni-padding-wrap{
+	height: 30%;
+}
+.page-section-spacing{
+	height: 100%;
+}
+.swiper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.swiper image {
+	width: 100%;
+	height: 100%;
+}
+.dots {
+	position: absolute;
+	right: 15rpx;
+	bottom: 15rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.dots view {
+	margin: 0 8rpx;
+	width: 16rpx;
+	height: 16rpx;
+	border: 1rpx solid #FFFFFF;
+	border-radius: 50%;
+	-webkit-transition: all .6s;
+	-o-transition: all .6s;
+	transition: all .6s;
+}
+.active {
+	background: #FFFFFF;
+}
+.uni-nav-list{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	height:23% ;
+}
+.uni-nav-item{
+	width: 33.5%;
+	height: 100%;
+	margin-top: 1%;
+	margin-left: 1%;
+}
+.uni-nav-item:first-child{
+	margin-left: 0;
+}
+.uni-nav-item image,.uni-bot-list image,.uni-nav1 image{
+	width: 100%;
+	height: 100%;
+}
+.uni-bot-list:first-child{
+	width: 66.5%;
+	height: 100%;
+}
+.uni-nav-bot{
+	height: 45%;
+	margin-top: 2%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.uni-bot-list1{
+	width: 33%;
+	height: 100%;
+	margin-left: 1%;
+}
+.uni-nav1{
+	height: 49.5%;
+}
+.uni-nav1:nth-child(2){
+	margin-top: 2.3%;
+}
+

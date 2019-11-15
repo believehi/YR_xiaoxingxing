@@ -1,0 +1,2 @@
+<import src="./baoming.vue.wxml" />
+    <template is="777d813a" data="{{ ...$root['0'], $root }}"/>

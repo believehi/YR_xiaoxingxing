@@ -1,0 +1,1 @@
+<view class="content"><view data-event-opts="{{[['tap',[['xz_but',['$event']]]]]}}" class="uni-xz-box" bindtap="__e"><view class="icon-box"><uni-icon class="icon2" vue-id="1" bind:__l="__l"></uni-icon></view><view class="text-box">参训资料包下载</view></view></view>

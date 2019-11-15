@@ -1,0 +1,32 @@
+
+.cart {
+	text-align: center;
+	margin-top: 10%;
+	font-size: 30rpx;
+}
+page {
+	width: 96%;
+	height: 100%;
+	padding: 0 2%;
+}
+.uni-bm-box {
+	width: 100%;
+	height: 300rpx;
+}
+.uni-bm-box image {
+	width: 100%;
+	height: 100%;
+}
+.uni-kc-item {
+	padding: 20rpx 27rpx;
+	background-color: #bfbdd8;
+	margin-top: 10rpx;
+}
+.uni-title {
+	font-size: 32rpx;
+	color: #FFFFFF;
+}
+.uni-kc-item:nth-of-type(even) {
+	background-color: #7f7bb2;
+}
+

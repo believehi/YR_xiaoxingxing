@@ -1,0 +1,1 @@
+<template name="8cc914d6"><view class="_view M8cc914d6 content"><view class="_view M8cc914d6 uni-xz-box" bindtap="handleProxy" data-eventid="{{'8cc914d6-0'}}" data-comkey="{{$k}}"><view class="_view M8cc914d6 icon-box"><uni-icon class="_uni-icon M8cc914d6 icon2"></uni-icon></view><view class="_view M8cc914d6 text-box">参训资料包下载</view></view></view></template>

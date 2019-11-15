@@ -1,0 +1,1 @@
+<view class="content"><block wx:for="{{baseinfo}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="list"><view class="list-on"><text>{{item.TrueName}}</text></view></view></block></view>

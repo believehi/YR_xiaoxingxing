@@ -1,0 +1,30 @@
+
+.content {
+	display: table;
+	margin-top: 30rpx;
+	width:100%;
+}
+.title {
+	font-size:36rpx;
+	color:#999;
+	text-align:center;
+	line-height:100rpx;
+}
+.uni-img-itme{
+	width: 33.333%;
+	display: inline-block;
+	text-align: center;
+}
+.uni-img-itme text{
+	display: block;
+	color: #676767;
+	font-size: 26rpx;
+	line-height: 50rpx;
+}
+.uni-img-itme image{
+	display: inline-block;
+	width: 200rpx;
+	height: 200rpx;
+	text-align: center;
+}
+
